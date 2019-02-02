@@ -1,8 +1,5 @@
 // 轮播图
-$('.bxslider').bxSlider({
-  auto: true,
-  speed: 600
-})
+$('.bxslider').bxSlider()
 
 $('.help-block-l ul li').click(function() {
   let id = $(this).attr('data-id')
