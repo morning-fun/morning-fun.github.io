@@ -83,7 +83,7 @@ img {
   height: 60px;
 }
 #header .content a#logo img {
-  height: 72%;
+  height: 86%;
   width: auto;
 }
 #header .nav {
@@ -461,12 +461,12 @@ img {
 }
 #to-member .to-member-block p {
   color: #848683;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
 }
 #to-cart {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: -18px;
 }
 #to-cart .to-cart-title {
   text-align: center;
@@ -564,16 +564,31 @@ img {
   background: #82c426;
 }
 .customization {
-  padding: 80px 0;
+  padding: 40px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.customization .desc {
-  width: 510px;
-}
 .customization-image {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+.customization-image .zao {
   width: 100%;
+  display: inline-block;
+}
+.customization-image .zao li {
+  width: 28.4%;
+  margin-right: 1.6%;
+  float: left;
+}
+.customization-image .zao li:last-child {
+  margin-right: 0;
+}
+.customization-image .zao img {
+  width: 100%;
+  height: 260px;
 }
 .customization-image img {
   width: 100%;
@@ -586,7 +601,19 @@ img {
 .customization p {
   color: #7d807c;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 15px;
+  text-align: center;
+}
+.customization .buzhou {
+  display: inline-block;
+}
+.customization .buzhou li {
+  width: 23.8%;
+  margin-right: 1.6%;
+  float: left;
+}
+.customization .buzhou li img {
+  width: 100%;
 }
 #partner {
   margin-top: 50px;
